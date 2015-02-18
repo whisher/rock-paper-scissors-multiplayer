@@ -5,9 +5,7 @@ var server = require('gulp-express');
 
 //https://github.com/gulpjs/gulp/issues/217
 module.exports = gulp.task('watch', function() {
-    server.run({
-        file: 'server.js'
-    });
+    server.run(['server.js']);
 
     var devFilesWatcher = gulp.watch(config.paths.src.jsGlobs, ['hint']);
     devFilesWatcher.on('change', server.notify);

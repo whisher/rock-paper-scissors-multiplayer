@@ -73,7 +73,7 @@ app.use('/api', router);
 require(configs.serverPath+'/routers/index')(app);
 require(configs.serverPath+'/routers/auth')(app, auth, configs, passport);
 require(configs.serverPath+'/routers/users')(app, auth);
-require(configs.serverPath+'/routers/articles')(app, auth, jwt);
+
 
 
 

@@ -1,15 +1,15 @@
 {
   "author": "Fabio Bedini aka Whisher",
-  "name": "angular-expresso",
+  "name": "rock-paper-scissors-multiplayer",
   "email": "io@ilwebdifabio.it",
   "url": "http://ilwebdifabio.it",
   "version": "1.0.0",
-  "homepage": "https://github.com/whisher/angular-expresso",
+  "homepage": "https://github.com/whisher/rock-paper-scissors-multiplayer",
   "description": "just a run and up mean stack.",
-  "bugs": "https://github.com/whisher/angular-expresso/issues",
+  "bugs": "https://github.com/whisher/rock-paper-scissors-multiplayer/issues",
   "repository": {
     "type": "git",
-    "url": "git@github.com:whisher/angular-expresso.git"
+    "url": "git@github.com:whisher/rock-paper-scissors-multiplayer.git"
   },
   "scripts": {
     "start": "node server.js"
